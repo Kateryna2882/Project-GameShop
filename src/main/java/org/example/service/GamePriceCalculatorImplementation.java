@@ -1,4 +1,10 @@
-package org.example.service;
+package org.example;
 
-public class GamePriceCalculatorImplementation {
+import org.example.service.GamePriceCalculator;
+
+public class GamePriceCalculatorImplementation implements GamePriceCalculator {
+    @Override
+    public int calculateDiscountedPrice(int originalPrice, float discount) {
+        return 0;
+    }
 }
