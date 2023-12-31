@@ -1,4 +1,6 @@
 package org.example.service;
 
-public class GamePriceCalculator {
+public interface GamePriceCalculator {
+    int calculateDiscountedPrice(int originalPrice, float discount);
 }
+
